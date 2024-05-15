@@ -1,0 +1,149 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Silkscreen", cursive;
+}
+
+/* variabel cuy */
+:root {
+    --bg-primary: #110c58;
+    --bg-secondary: #eaeaea;
+    --text-primary: #f7f7f7;
+    --text-secondary: #574bff;
+    --icons-bg-primary: #ece3e3;
+}
+
+/* dekstop cuy */
+@media screen and (min-width: 869px) {
+    .mobile {
+        display: none;
+    }
+}
+
+img {
+    width: 150px;
+    margin-top: 30px;
+}
+
+.D {
+    font-size: 30px;
+}
+
+.judul {
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+span {
+    font-size: 10px;
+}
+
+.container {
+    width: 1280px;
+    height: 550px;
+    margin-left: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    border-radius: 8px;
+    border: 2px solid var(--bg-primary);
+    background-color: var(--bg-primary);
+    color: var(--bg-secondary);
+    padding: 50px;
+    margin: 8px;
+    margin-top: 30px;
+    box-shadow: 2px 2px var(--text-secondary);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icons {
+    font-size: 24px;
+}
+
+.description {
+    margin-top: 8px;
+    font-size: 0.5em;
+}
+
+.btn-D {
+    background-color: var(--icons-bg-primary);
+    margin-top: 16px;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.btn-D:hover {
+    border-radius: 3px;
+    background-color: var(--icons-bg-primary);
+    color: var(--text-secondary);
+    transform: rotate(1deg);
+    opacity: 1;
+}
+
+/* mobile cuy */
+@media screen and (max-width: 869px) {
+
+    *,
+    .mobile {
+        margin: 0;
+        padding: 0;
+        font-family: "Silkscreen", cursive;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .dekstop {
+        display: none;
+    }
+
+    .mobile {
+        justify-content: center;
+        text-align: center;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    button {
+        margin: 10px;
+        border-radius: 10px;
+        background-color: var(--bg-primary);
+        color: var(--icons-bg-primary);
+    }
+
+    .btn1 {
+        margin-top: 25px;
+        padding: 15px 130px;
+    }
+
+    .btn2 {
+        padding: 15px 139px;
+    }
+
+    .btn3 {
+        padding: 15px 123px;
+    }
+
+    .btn4 {
+        padding: 15px 130px;
+    }
+}
